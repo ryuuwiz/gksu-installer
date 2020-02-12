@@ -19,7 +19,7 @@ wget http://ftp.br.debian.org/debian/pool/main/libg/libgtop2/libgtop-2.0-10_2.34
 echo "Installing Packages...."
 sudo dpkg -i libgtop*
 sudo dpkg -i libgksu*
-sudo dpkg -i gksu.deb*
+sudo dpkg -i gksu*
 sudo apt-get install -f -y
 
 echo ""
